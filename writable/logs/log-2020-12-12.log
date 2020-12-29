@@ -1,0 +1,3 @@
+CRITICAL - 2020-12-12 23:13:58 --> Cannot redeclare App\Controllers\Home::register()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

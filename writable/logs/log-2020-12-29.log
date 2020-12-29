@@ -1,0 +1,10 @@
+CRITICAL - 2020-12-29 01:27:57 --> Invalid file: reward/panfav.php
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reward/panfav.p...')
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('reward/panfav', Array, true)
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(80): view('reward/panfav', Array)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->penfav()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
