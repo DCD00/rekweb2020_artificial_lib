@@ -1,0 +1,189 @@
+CRITICAL - 2020-12-27 09:09:56 --> unlink(buku/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(buku/): ...', 'C:\\xampp\\htdocs...', 241, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Book.php(241): unlink('buku/')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Book->update('7')
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-27 10:00:27 --> Undefined index: fileBuku
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Book.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Book->delete('11')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-27 10:02:00 --> Undefined index: fileBuku
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Book.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Book->delete('11')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-27 10:45:04 --> Undefined index: slug
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(231): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 231, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 11:39:25 --> Too few arguments to function App\Controllers\Pages::readBk(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->readBk()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 11:42:21 --> Too few arguments to function App\Controllers\Pages::readBk(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->readBk()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 11:49:00 --> Too few arguments to function App\Controllers\Pages::readBk(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->readBk()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 11:58:24 --> Undefined variable: config
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\auth\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(21): view('auth/login')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 11:59:32 --> Undefined variable: config
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\auth\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(21): view('auth/login')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 12:00:30 --> Undefined variable: config
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\auth\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(21): view('auth/login')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 12:14:01 --> Undefined variable: config
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\auth\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(10): view('auth/login')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 12:16:29 --> Undefined variable: config
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\auth\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(10): view('auth/login')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 12:19:36 --> Too few arguments to function App\Controllers\Home::read(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->read()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 12:19:43 --> Undefined property: App\Controllers\Home::$bookModel
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->read('4')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-27 12:19:57 --> Undefined variable: config
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\auth\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(10): view('auth/login')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 12:20:50 --> Undefined property: App\Controllers\Home::$bookModel
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->read('algorithma2')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-27 12:23:09 --> Too few arguments to function App\Controllers\Home::read(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->read()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 12:23:42 --> Too few arguments to function App\Controllers\Home::read(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->read()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 20:18:53 --> Too few arguments to function App\Controllers\Home::read(), 0 passed in C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->read()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 20:19:43 --> Undefined index: slug
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 232, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 20:19:54 --> Undefined index: slug
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 232, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,67 @@
+CRITICAL - 2020-12-22 00:45:24 --> Call to undefined method App\Models\UserModel::withGroup
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Controllers\AuthController.php(174): CodeIgniter\Model->__call('withGroup', Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-22 01:22:34 --> Call to undefined method App\Models\UserModel::withGroup
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Controllers\AuthController.php(174): CodeIgniter\Model->__call('withGroup', Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-22 01:27:03 --> Call to undefined method App\Models\UserModel::withGroup
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Controllers\AuthController.php(174): CodeIgniter\Model->__call('withGroup', Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-22 01:28:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Controllers\AuthController.php(174): CodeIgniter\Model->__call('withGroup', Array)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-22 01:30:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Controllers\AuthController.php(174): CodeIgniter\Model->__call('withGroup', Array)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-22 01:31:44 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(340): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): CodeIgniter\Autoloader\Autoloader->loadLegacy('UserModel.php')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('UserModel')
+#4 [internal function]: spl_autoload_call('UserModel')
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Database\ModelFactory.php(74): class_exists('UserModel')
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Database\ModelFactory.php(40): CodeIgniter\Database\ModelFactory::createClass('UserModel', NULL)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(774): CodeIgniter\Database\ModelFactory::get('UserModel', true, NULL)
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Controllers\AuthController.php(150): model('UserModel')
+#9 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2020-12-22 01:32:19 --> Call to undefined method App\Models\UserModel::withGroup()
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): Myth\Auth\Controllers\AuthController->attemptRegister()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,75 @@
+CRITICAL - 2020-12-26 04:50:05 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\templates\topbar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(525): CodeIgniter\View\View->render('templates/topba...', NULL, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\templates\index.php(42): CodeIgniter\View\View->include('templates/topba...')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('templates/index', Array, true)
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/detail', Array, true)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Admin.php(47): view('admin/detail', Array)
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->detail('4')
+#9 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2020-12-26 04:51:33 --> Trying to get property 'usr_image' of non-object
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\user\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\User.php(13): view('user/index', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 11:24:54 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-26 11:26:16 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-26 11:26:52 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-26 11:27:16 --> Undefined index: sampul
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 11:27:58 --> Undefined index: judul
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-26 11:28:28 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-26 11:33:16 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-26 11:35:23 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-26 11:35:32 --> syntax error, unexpected ':', expecting end of file
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

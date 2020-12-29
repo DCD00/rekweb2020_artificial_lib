@@ -1,0 +1,24 @@
+CRITICAL - 2020-12-16 03:56:51 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Models\LoginModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(93): Myth\Auth\Models\LoginModel->getRememberToken('e13f9d32cafb810...')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-16 03:57:16 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Models\LoginModel.php(61): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(93): Myth\Auth\Models\LoginModel->getRememberToken('e13f9d32cafb810...')
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\myth\auth\src\Filters\LoginFilter.php(44): Myth\Auth\Authentication\LocalAuthenticator->check()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('/', 'before')
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

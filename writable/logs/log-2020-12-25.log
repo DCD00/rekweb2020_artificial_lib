@@ -1,0 +1,75 @@
+CRITICAL - 2020-12-25 03:59:10 --> Undefined variable: book
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(13): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-25 04:00:33 --> Undefined property: App\Controllers\Pages::$bookModel
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-25 05:02:07 --> Undefined index: sampul
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-25 05:03:40 --> Undefined index: slug
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-25 05:09:50 --> Undefined index: sampul
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('home/index', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-25 05:12:40 --> Undefined index: sampul
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-25 05:52:26 --> Undefined index: pengarang
+#0 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Views\home\utama.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home/utama', Array, true)
+#3 C:\xampp\htdocs\rekweb2020_artificial_lib\app\Controllers\Pages.php(25): view('home/utama', Array)
+#4 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rekweb2020_artificial_lib\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rekweb2020_artificial_lib\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
